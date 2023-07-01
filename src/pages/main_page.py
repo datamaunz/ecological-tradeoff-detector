@@ -62,8 +62,8 @@ def display_main_page():
     prompt = st.session_state["prompt"]
     
     
-    
-    response = generate_response(prompt)
-    st.write(response)
+    if prompt != "":
+        response = generate_response(prompt)
+        st.write(response)
     
     
