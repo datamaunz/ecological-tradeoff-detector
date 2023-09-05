@@ -6,7 +6,8 @@ from src.modules.initialize_session_state import initalize_session_state_dict
 initalize_session_state_dict()
 
 def main():
-    st.set_page_config(layout="wide",
+    st.set_page_config(
+        #layout="wide",
                        page_title="Tradeoff-Detector",
                        page_icon = '🌍')
     
